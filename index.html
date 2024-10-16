@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="ie=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Marcos Gual - Portfolio</title>
+    <link rel="stylesheet" href="./styles/styles.css" />
+    <link rel="stylesheet" href="./styles/mediaqueries.css" />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Inter:ital,opsz,wght@0,14..32,100..900;1,14..32,100..900&display=swap"
+      rel="stylesheet"
+    />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Inter:ital,opsz,wght@0,14..32,100..900;1,14..32,100..900&family=Roboto+Slab:wght@100..900&display=swap"
+      rel="stylesheet"
+    />
+  </head>
+  <body>
+    <nav id="navBar" class="nav-bar">
+      <div class="logo">marcos gual</div>
+      <div>
+        <ul class="nav-bar-links">
+          <li><a href="">acerca de</a></li>
+          <li><a href="">experiencia</a></li>
+          <li><a href="">proyectos</a></li>
+          <li><a href="">contacto</a></li>
+        </ul>
+      </div>
+    </nav>
+    <nav id="burgerNav">
+      <div class="logo">marcos gual</div>
+      <div class="burger-menu">
+        <div class="burger-icon" onclick="toggleNavMenu()">
+            <span></span>
+            <span></span>
+            <span></span>
+        </div>
+      </div>
+      <div class="burger-links">
+        <li><a href="" onclick="toggleNavMenu()">acerca de</a></li>
+        <li><a href="" onclick="toggleNavMenu()">experiencia</a></li>
+        <li><a href="" onclick="toggleNavMenu()">proyectos</a></li>
+        <li><a href="" onclick="toggleNavMenu()">contacto</a></li>
+      </div>
+    </nav>
+    <script src="./js/index.js"></script>
+  </body>
+</html>
