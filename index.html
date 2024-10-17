@@ -4,10 +4,10 @@
     <meta charset="UTF-8" />
     <meta http-equiv="X-UA-Compatible" content="ie=edge" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <title>Marcos Gual - Portfolio</title>
+    <title>Portfolio - Marcos Gual</title>
     <link rel="stylesheet" href="./styles/styles.css" />
     <link rel="stylesheet" href="./styles/mediaqueries.css" />
-    <link rel="shortcut icon" href="#" type="image/x-icon">
+    <link rel="shortcut icon" href="#" type="image/x-icon" />
     <link rel="preconnect" href="https://fonts.googleapis.com" />
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
     <link
@@ -18,7 +18,6 @@
       href="https://fonts.googleapis.com/css2?family=Inter:ital,opsz,wght@0,14..32,100..900;1,14..32,100..900&family=Roboto+Slab:wght@100..900&display=swap"
       rel="stylesheet"
     />
-    
   </head>
   <body>
     <nav id="navBar" class="nav-bar">
@@ -36,9 +35,9 @@
       <div class="logo">marcos gual</div>
       <div class="burger-menu">
         <div class="burger-icon" onclick="toggleNavMenu()">
-            <span></span>
-            <span></span>
-            <span></span>
+          <span></span>
+          <span></span>
+          <span></span>
         </div>
       </div>
       <div class="burger-links">
@@ -48,6 +47,42 @@
         <li><a href="" onclick="toggleNavMenu()">contacto</a></li>
       </div>
     </nav>
+    <section id="profile">
+      <div class="section--pic-container">
+        <img src="./assets/personal_pic02.jpg" alt="foto de perfil" />
+      </div>
+      <div class="section--text">
+        <div class="section--text-p1">hola, soy</div>
+        <h1 class="title">marcos</h1>
+        <div class="section--text-p2">desarrollador fullstack</div>
+
+        <div class="btn-container">
+          <button
+            class="btn btn-color-2"
+            onclick="window.open('./assets/cvMarcosGual')"
+          >
+            bajar cv
+          </button>
+          <button class="btn btn-color-1" onclick="location.href='./#contact'">
+            contacto
+          </button>
+        </div>
+        <div class="socials-container">
+          <img
+            src="./assets/linkedin.png"
+            alt="Mi perfil de Linkedin"
+            class="icon"
+            onclick="location.href='https://www.linkedin.com/in/marcos-gual-/'"
+          />
+          <img
+            src="./assets/github_logo_25231.png"
+            alt="Mi perfil de Github"
+            class="icon"
+            onclick="location.href='https://github.com/MarcosGual'"
+          />
+        </div>
+      </div>
+    </section>
     <script src="./js/index.js"></script>
   </body>
 </html>

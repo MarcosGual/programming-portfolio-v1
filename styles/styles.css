@@ -23,8 +23,7 @@ body {
 h1,
 h2,
 h3,
-h4,
-h5 {
+h4 {
   font-family: "Inter", sans-serif;
 }
 
@@ -38,7 +37,7 @@ a,
 }
 
 nav,
-.nav-bar-list {
+.nav-bar-links {
   display: flex;
 }
 
@@ -155,4 +154,39 @@ a:hover {
 
 .burger-icon span:first-child {
   transform: none;
+}
+
+.section--pic-container>img{
+    border-radius: 50%;
+}
+
+/* secciones */
+
+section{
+  height: 95vh;
+  padding-top: 5vh;
+  margin: 0 10rem;
+  min-height: fit-content;
+}
+
+.section-container{
+  display: flex;
+}
+
+/* sección del perfil */
+
+#profile{
+  display: flex;
+}
+
+.section--pic-container{
+  display: flex;
+  height: 400px;
+  width: 400px;
+  margin: auto 0;
+}
+
+.section--text{
+  align-self: center;
+  text-align: center;
 }
