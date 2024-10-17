@@ -173,6 +173,7 @@ section {
 
 .section-container {
   display: flex;
+  /* gap: 10rem; */
 }
 
 /* sección del perfil */
@@ -270,10 +271,76 @@ section {
 .about-containers {
   gap: 2rem;
   margin: 2rem 0;
+  justify-content: space-around;
+  flex-wrap: wrap;
 }
 
-.about-details-container{
-  justify-content: center;
+.about-details-container {
   flex-direction: column;
+  justify-content: center;
 }
 
+.about-containers,
+.about-details-container {
+  display: flex;
+}
+
+.section--pic-container.about--pic-container {
+  /* flex: 50%; */
+  display: flex;
+  justify-content: center;
+  flex: 1;
+}
+
+.about-pic {
+  border-radius: 50%;
+  height: 400px;
+  width: 400px;
+}
+
+.arrow {
+  position: absolute;
+  right: -5rem;
+  bottom: 2.5rem;
+}
+
+.details-container {
+  padding: 1.5rem;
+  text-align: center;
+  max-width: 500px;
+  flex: 1;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: space-evenly;
+  flex-wrap: wrap;
+  background: white;
+  border-radius: 1rem;
+  border: var(--dark-gray) 0.1rem solid;
+  border-color: rgb(161, 161, 161);
+}
+
+.section-container {
+  gap: 4rem;
+  height: 80%;
+  display: flex;
+  flex-wrap: nowrap;
+}
+
+.section--pic-container {
+  height: 400px;
+  width: 400px;
+  margin: auto 0;
+}
+
+.section--pic-container.about--pic-container>img{
+  border-radius: 2rem;
+  margin-top: 1rem;
+}
+
+.text-container {
+  padding: 0 2rem;
+  font-size: 17px;
+  text-align: justify;
+  text-transform: lowercase;
+}
