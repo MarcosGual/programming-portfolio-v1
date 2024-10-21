@@ -412,3 +412,43 @@ btn.project-btn{
 }
 
 /* contacto */
+#contact{
+  display: flex;
+  justify-content: center;
+  flex-direction: column;
+  height: 70vh;
+}
+
+.contact-info-upper-container{
+  display: flex;
+  justify-content: center;
+  border-radius: 1rem;
+  border: var(--black) 0.1rem solid;
+  /* border-color: var(--grey-border); */
+  background: rgb(251, 251, 251);
+  margin: 2rem auto;
+  padding: 0.6rem;
+}
+
+.contact-info-container{
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 0.6rem;
+  margin: 1rem;
+}
+
+.contact-info-container p{
+  font-size: larger;
+}
+
+.contact-icon{
+  cursor: default;
+  height: 3rem;
+}
+
+.contact-info-container>img[alt="linkedin icon"]{
+  border-radius: 50%;
+}
+
+/* .email-icon */
