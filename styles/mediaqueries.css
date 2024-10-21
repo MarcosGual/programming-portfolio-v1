@@ -2,13 +2,20 @@
   #navBar {
     display: none;
   }
+
   #burgerNav {
     display: flex;
   }
+
   .section-container {
     flex-wrap: wrap;
   }
+  
   .section--pic-container.about--pic-container {
     margin-top: 3.5rem;
+  }
+  
+  .about-containers{
+    flex-direction: column;
   }
 }
