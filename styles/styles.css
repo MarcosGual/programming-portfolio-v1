@@ -414,9 +414,9 @@ btn.project-btn{
 /* contacto */
 #contact{
   display: flex;
-  justify-content: center;
+  /* justify-content; */
   flex-direction: column;
-  height: 70vh;
+  height: 75vh;
 }
 
 .contact-info-upper-container{
@@ -452,3 +452,13 @@ btn.project-btn{
 }
 
 /* .email-icon */
+
+footer{
+  height: 25vh;
+  margin: 0 1rem;
+}
+
+footer>p{
+  text-align: center;
+  color: var(--dark-gray);
+}
