@@ -392,3 +392,23 @@ btn.project-btn{
   color: black;
   border: var(--grey-border);
 }
+
+.experience-subtitle{
+  /* color: rgb(84,84,84); */
+  font-weight: 600;
+  font-size: 1.7rem;
+  margin-bottom: 2rem;
+}
+
+.experience-details-container{
+  display: flex;
+  justify-content: center;
+  flex-direction: column;
+}
+
+.project-title{
+  margin: 1.1rem;
+  color: black;
+}
+
+/* contacto */
